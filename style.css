@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+#root {
+    text-align: center;
+    font-family: sans-serif;
+}
+#problem {
+    font-size: 72px;
+    color: white;
+}
+#input {
+    margin: 20px;
+    width: 200px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 6px;
+} 
+#score {
+    font-size: 25px;
+    color: #fff;
+}
+#note {
+    color: #777;
+    margin-top: 30px;
+}
+#score span {
+    color: rgb(21, 158, 131);
+}
+.incorrect {
+    color: red;
+}
+#winner {
+    font-size: 72px;
+    color: rgb(36, 207, 36);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
